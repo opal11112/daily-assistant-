@@ -1,0 +1,11 @@
+{
+  "name": "Daily AI Task Assistant",
+  "description": "Daily AI Task Assistant with customizable layouts, OLED black dark mode, voice commands, vision AI scanner, grocery & chore management, medication & allergy tracking, and recipe timers.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
