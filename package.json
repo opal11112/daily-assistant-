@@ -5,7 +5,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {"build": "vite build --base=/daily-assistant-/"
+  "scripts": {"build "scripts": {
+  "dev": "vite",
+  "build": "vite build --base=/daily-assistant-/",
+  "preview": "vite preview"
+}
+
 
     "dev": "tsx server.ts",
     "build": "vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
